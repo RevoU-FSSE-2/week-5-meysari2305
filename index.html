@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile Meysari</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="picture/logo1.jpg" alt="" />
+      </a>
+
+      <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Paket</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn" onclick="toggleSearch()"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn" onclick="toggleCart()"></div>
+        <div class="fas fa-bars" id="menu-btn" onclick="toggleMenu()"></div>
+      </div>
+      <div class="search-form" id="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container" id="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="picture/kopi4.webp" alt="" />
+          <div class="content">
+            <h3>Cart Item 01</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="picture/kopi5.jpg" alt="" />
+          <div class="content">
+            <h3>Cart Item 02</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="picture/kopi3.jpg" alt="" />
+          <div class="content">
+            <h3>Cart Item 03</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="picture/kopi6.jpg" alt="" />
+          <div class="content">
+            <h3>Cart Item 04</h3>
+            <div class="price">$15.99</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout Now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Company Profile Kopi Janji Jiwa</h3>
+        <p>
+          Janji Jiwa merupakan salah satu kedai kopi di Indonesia yang mulai buka pada tahun 2018. Janji Jiwa memiliki konsep fresh-to-cup, penyajian kopi dipilih dari hasil kopi lokal Indonesia dan disajikan secara trendi.
+          (jiwagroup.com,2021).
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Janji Jiwa</h1>
+      <div class="row">
+        <div class="image">
+          <img src="picture/kopi3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>What makes the coffe special</h3>
+          <p>
+            Janji Jiwa menghadirka n pengalaman kedai kopi 'Grab & Go' yang mengadopsi konsep fresh-to-cup dan menyajikan pilihan kopi Lokal Indonesia. Kami menawarkan cita rasa klasik dalam produk kopi. Janji Jiwa juga telah berhasil
+            menemukan cara untuk menghasilkan produk berkualitas dengan harga terjangkau dengan mencari dan memanggang Kopi Indonesia pilihan lokal terbaik. Visi kami adalah menjadikan Kopi Janji Jiwa sebagai merek kedai kopi yang berada di
+            setiap sudut kota dengan membawa budaya kedai kopi Indonesia ke dunia.
+          </p>
+
+          <button class="btn">learn more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="picture/kopi.2.jpg" alt="" />
+          <h3>Kopi Susu Original</h3>
+          <div class="price">$18.00 <span>20.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi3.jpg" alt="" />
+          <h3>Gula Aren</h3>
+          <div class="price">$22.99 <span>25.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi4.webp" alt="" />
+          <h3>Green Tea</h3>
+          <div class="price">$23.99 <span>30.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi5.jpg" alt="" />
+          <h3>Chocolate</h3>
+          <div class="price">$22.99 <span>28.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi6.jpg" alt="" />
+          <h3>Fresh Tea</h3>
+          <div class="price">$18.99 <span>25.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi7.webp" alt="" />
+          <h3>Chocolate Oreo</h3>
+          <div class="price">$25.99 <span>35.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi8.jpg" alt="" />
+          <h3>Storwberry</h3>
+          <div class="price">$22.99 <span>28.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+        <div class="box">
+          <img src="picture/kopi9.jpg" alt="" />
+          <h3>Fruits</h3>
+          <div class="price">$23.99 <span>30.99</span></div>
+          <a href="#" class="btn">Add Cart</a>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="products">
+      <h1 class="heading">PAKET <span>products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="href" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="picture/paket1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffe</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="href" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="picture/paket2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffe</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="href" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="picture/paket3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>Fresh Coffe</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15.99 <span>$20.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.239201828885!2d106.79879040259958!3d-6.2102074592245655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3617a1c9cf7%3A0x8a8876555abd91eb!2sKopi%20Janji%20Jiwa!5e0!3m2!1sid!2sid!4v1689397388843!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <form action="">
+          <h3>Get In Touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="Contact Now" class="btn" />
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Product</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="credit">created by <span>mrs.Iis Meysari</span> | all rights rivserved</div>
+    </section>
+  </body>
+</html>
