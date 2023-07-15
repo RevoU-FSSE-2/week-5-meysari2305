@@ -8,7 +8,7 @@ Click the link https://week5meysari.imys.site to se my project😉
 
 ### Tampilan Tugas Week 5 Iis Meysari
 
-<h1 text-align="center"><img src="picture/WEEK5.jpg" width="400px" height="300px" /> </h1>
+<h1 text-align="center"><img src="picture/WEEK5.jpg" width="800px" height="600px" /> </h1>
 
 # Element Web Ini terdiri dari :
 
